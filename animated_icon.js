@@ -6,10 +6,7 @@ $(document).ready(function() {
     $('i').show();
   
     var githubPos = $('#github').position();
-    var stackPos = $('#stack').position();
-    var linkedinPos = $('#linkedin').position();
-    var codePos = $('#code').position();
-
+    var stackPos = $('#facebook').position();
     var imgPos = $('.my-avatar').position();
     
     $('i').css({
