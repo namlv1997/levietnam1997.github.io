@@ -1,9 +1,10 @@
   
-@import "https://fonts.googleapis.com/css?family=Raleway:200,300,400,500,600,700,800";
+/* @import "https://fonts.googleapis.com/css?family=Raleway:200,300,400,500,600,700,800";
 @import "https://fonts.googleapis.com/css?family=Pacifico&display=swap";
 :root { --slide-right: 15%; --slide-left: calc(var(--slide-right) * -1)
 ; }
 html { scroll-behavior: smooth; }
+body { font-family: 'Raleway', sans-serif; font-size: 16px; background: rgba(242, 242, 242, 0.6); margin: 0; overflow-x: hidden; } */
 
 .my-avatar{
     display: block;
