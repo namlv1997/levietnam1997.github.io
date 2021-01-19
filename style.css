@@ -41,12 +41,6 @@ html { scroll-behavior: smooth; }
     color: black;
 }
 
-.social i #stack{
+.social i #facebook{
     color:#ED780E;
-}
-.social i #linkedin{
-    color: #0177B5;
-}
-.social i #code{
-    color:#29A329;
 }
