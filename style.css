@@ -17,7 +17,7 @@ body { font-family: 'Raleway', sans-serif; font-size: 16px; background: rgba(242
     z-index: 2;
   }
 
-  .social {
+.social {
     text-align: center;
     font-size: 2.5em;
     color: #555;
@@ -32,16 +32,17 @@ body { font-family: 'Raleway', sans-serif; font-size: 16px; background: rgba(242
     cursor: pointer;
     transition: color 300ms ease, margin-top 300ms ease;
     transform: translateZ(0);
+    
 }
 
 .social i:hover{
     margin-top: -1px;
 }
 
-.social i #github{
+.social i #github:hover{
     color: black;
 }
 
-.social i #facebook{
+.social i #facebook:hover{
     color:#ED780E;
 }

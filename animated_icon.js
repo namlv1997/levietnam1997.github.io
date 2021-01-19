@@ -6,20 +6,21 @@ $(document).ready(function() {
     $('i').show();
   
     var githubPos = $('#github').position();
-    var stackPos = $('#facebook').position();
-    var imgPos = $('.my-avatar').position();
+    var facebookPos = $('#facebook').position();
+    var avatarPos = $('.my-avatar').position();
     
     $('i').css({
+      display:'inline',
       position: 'absolute',
       zIndex: '1',
-      top: imgPos.top + 100,
+      top: avatarPos.top + 100,
       left: '47%'
     });
     
     setTimeout(function() {
       $('#github').animate({
-        top: twitterPos.top + 10,
-        left: twitterPos.left - 10
+        top: githubPos.top + 10,
+        left: githubPos.left - 10
       }, 500);
     }, 250);
 
@@ -30,16 +31,16 @@ $(document).ready(function() {
       }, 250);
       
       $('#facebook').animate({
-        top: stackPos.top + 10,
-        left: stackPos.left - 3
+        top: facebookPos.top + 10,
+        left: facebookPos.left - 3
       }, 500);
     }, 750);
     
     
     setTimeout(function() {
       $('#facebook').animate({
-        top: codePos.top,
-        left: codePos.left
+        top: facebookPos.top,
+        left: facebookPos.left
       }, 250);
     },2000);
       
